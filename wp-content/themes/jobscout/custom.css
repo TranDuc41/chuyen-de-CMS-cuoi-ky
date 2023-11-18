@@ -1,0 +1,50 @@
+#client-section {
+    background-color: #EA751E;
+}
+
+#client-section .email-icon {
+    display: flex;
+    align-items: center;
+    background: #fff;
+    padding: 0 23px;
+}
+
+#client-section .email-icon .wpcf7-form-control-wrap input{
+    border: unset;
+}
+
+#client-section .email-icon .wpcf7-form-control-wrap input::placeholder{
+    color: #CCCCCC;
+}
+
+#client-section .email-icon .wpcf7-form-control-wrap input:focus{
+    outline: unset;
+}
+
+#client-section #block-8 .left-content {
+    color: #fff;
+}
+
+#block-8 form .wpcf7-form-control {
+    background-color: unset;
+    border: 1px solid;
+    border-radius: unset;
+    padding: 12px 18px 12px 10px;
+}
+
+#block-8 form .form-email p{
+    margin-bottom: 25px;
+    margin-left: 16px;
+}
+
+#block-8 form .btn-submit .wpcf7-form-control {
+    padding: 12px 26px;
+}
+
+#block-8 form .form-email .btn-submit p{
+    margin-left: 10px;
+}
+
+#block-8 .wpcf7-spinner{
+    display: none;
+}
