@@ -3044,6 +3044,7 @@ CLIENT SECTION
 section.client-section {
   margin: 40px 0 60px 0;
   text-align: center;
+  background-color: #f38231;
 }
 
 .client-section .widget {
