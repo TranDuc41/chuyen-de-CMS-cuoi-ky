@@ -12,8 +12,9 @@
  * @package JobScout
  */
 
-get_header(); ?>
+get_header(); $blog_heading = get_theme_mod('blog_section_title', __('NEWEST BLOG ENTRIES', 'jobscout'));?>
 
+<?php if ($blog_heading) echo '<h2 class="section-title">' . esc_html($blog_heading) . '</h2>'; ?>
 	<div id="primary" class="content-area">
 		
         <?php 

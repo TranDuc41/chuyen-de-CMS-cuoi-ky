@@ -396,7 +396,13 @@ function the_excerpt() {
 	 *
 	 * @param string $post_excerpt The post excerpt.
 	 */
-	echo apply_filters( 'the_excerpt', get_the_excerpt() );
+	$excerpt = get_the_excerpt(); // Lấy mô tả
+
+    // Giới hạn độ dài của mô tả
+    $excerpt_length = apply_filters('custom_excerpt_length', 18); // Số từ muốn hiển thị
+    $excerpt = wp_trim_words($excerpt, $excerpt_length);
+
+	echo apply_filters( 'the_excerpt', $excerpt );
 }
 
 /**
