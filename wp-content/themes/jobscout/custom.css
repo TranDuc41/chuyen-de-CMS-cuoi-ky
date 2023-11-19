@@ -87,51 +87,53 @@
 }
 
 /* NEWS PAGE */
-#acc-content #content .container .section-title {
-    text-align: center;
-    margin-top: 90px;
-}
-
-#acc-content #content #primary #main {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 30px;
-    text-align: left;
-    margin-top: 50px;
-    margin-bottom: 40px;
-}
-
-#acc-content #content #primary #main .content-wrap .entry-footer a {
-    color: #EA7823;
-    font-weight: 700;
-}
-
-#acc-content #content {
-    margin-top: 0;
-}
-
-#acc-content {
-    background-color: #F2F2F2;
-}
-
-#acc-content #content #primary #main article {
-    background-color: #fff;
-    box-shadow: unset;
-    border-radius: unset;
-}
-
-#acc-content #content #primary #main article .post-thumbnail {
-    height: 100%;
-}
-
-#acc-content #content #primary #main article .post-thumbnail a img {
-    padding: 20px;
-}
-
-#acc-content #content #primary #main .content-wrap {
-    padding-left: 16px;
-}
-
-#acc-content #content #primary #main .content-wrap .entry-content p {
-    font-size: 0.778em;
+body.blog {
+    #acc-content #content .container .section-title {
+        text-align: center;
+        margin-top: 90px;
+    }
+    
+    #acc-content #content #primary #main {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 30px;
+        text-align: left;
+        margin-top: 50px;
+        margin-bottom: 40px;
+    }
+    
+    #acc-content #content #primary #main .content-wrap .entry-footer a {
+        color: #EA7823;
+        font-weight: 700;
+    }
+    
+    #acc-content #content {
+        margin-top: 0;
+    }
+    
+    #acc-content {
+        background-color: #F2F2F2;
+    }
+    
+    #acc-content #content #primary #main article {
+        background-color: #fff;
+        box-shadow: unset;
+        border-radius: unset;
+    }
+    
+    #acc-content #content #primary #main article .post-thumbnail {
+        height: 100%;
+    }
+    
+    #acc-content #content #primary #main article .post-thumbnail a img {
+        padding: 20px;
+    }
+    
+    #acc-content #content #primary #main .content-wrap {
+        padding-left: 16px;
+    }
+    
+    #acc-content #content #primary #main .content-wrap .entry-content p {
+        font-size: 0.778em;
+    }
 }
