@@ -28,6 +28,9 @@
 
     <!-- Link custom.css -->
     <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/custom.css">
+    <!-- icon -->
+    <script src="https://kit.fontawesome.com/f6dce9b617.js" crossorigin="anonymous"></script>
+
 </head>
 
 <body <?php body_class(); ?> itemscope itemtype="https://schema.org/WebPage">
