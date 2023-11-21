@@ -2395,7 +2395,7 @@ SITE BANNER SECTION
 .banner-caption .jobscout_job_filters .search_jobs input,
 .banner-caption .jobscout_job_filters .search_jobs select {
   border-radius: 0;
-  height: 60px;
+  /* height: 60px; */
   border-top: none;
   border-bottom: none;
   border-right: none;
