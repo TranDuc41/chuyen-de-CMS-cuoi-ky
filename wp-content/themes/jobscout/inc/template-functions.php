@@ -475,10 +475,20 @@ if( ! function_exists( 'jobscout_content_end' ) ) :
 function jobscout_content_end(){ 
     $home_sections = jobscout_get_home_sections(); 
     if( ! ( is_front_page() && ! is_home() && $home_sections ) ){ ?>            
-        </div><!-- .container/ -->        
+        </div><!-- .container/ --> 
+               
     </div><!-- .error-holder/site-content -->
     <?php
     }
+    if ( is_home() && is_active_sidebar( 'client' ) ) {
+        ?>
+            <section id="client-section" class="client-section">
+                <div class="container">
+                    <?php dynamic_sidebar( 'client' ); ?>
+                </div>
+            </section> <!-- .bg-cta-section -->
+        <?php
+        }
 }
 endif;
 add_action( 'jobscout_before_footer', 'jobscout_content_end', 20 );
