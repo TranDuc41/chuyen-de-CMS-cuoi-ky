@@ -2614,7 +2614,7 @@ section.top-job-section .section-title {
   color: rgba(0, 0, 0, 0.5);
   font-weight: 400;
   line-height: 1.44em;
-  margin-top: 5px;
+  margin-top: 4px;
 }
 
 .top-job-section .row div.job_listings article .company-name::before {
@@ -8165,13 +8165,14 @@ RESPONSIVE STYLESHEET
 /* TOP JOB */
 .meta-company {
   padding: 1px 3px;
-  background: #e6e6e6;
+  background: #f5f5f7;
   color: #595959;
   font-weight: 500;
   font-size: 16px;
   padding-left: 5px;
   display: flex;
   justify-content: space-between;
+  margin-top: 2px;
 }
 
 .meta-company .name-company::before,
@@ -8238,6 +8239,11 @@ RESPONSIVE STYLESHEET
 }
 .job-posting-section{
   background-color: #e6e6e6
+}
+
+/* Top-JOBS NEW */
+.site-content {
+  background: #f5f5f7;
 }
 
 
