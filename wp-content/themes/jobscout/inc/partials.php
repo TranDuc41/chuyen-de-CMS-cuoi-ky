@@ -213,7 +213,7 @@ if( ! function_exists( 'jobscout_ed_author_link' ) ) :
  * Show/Hide Author link in footer
 */
 function jobscout_ed_author_link(){
-    echo esc_html__( 'JobScout | Developed By ', 'jobscout' ) . '<a class="author-link" href="' . esc_url( 'https://rarathemes.com/' ) .'" rel="nofollow" target="_blank">' . esc_html__( 'Rara Theme', 'jobscout' ) . '</a>.';
+    echo esc_html__( '', 'jobscout' ) ;
 }
 endif;
 
@@ -222,6 +222,6 @@ if( ! function_exists( 'jobscout_ed_wp_link' ) ) :
  * Show/Hide WordPress link in footer
 */
 function jobscout_ed_wp_link(){
-     printf( esc_html__( ' Powered by %s', 'jobscout' ), '<a class="wp-link" href="'. esc_url( __( 'https://wordpress.org/', 'jobscout' ) ) .'" target="_blank">WordPress</a>.' );
+     printf( esc_html__( ' ', 'jobscout' ), '<a class="wp-link" href="'. esc_url( __( 'https://wordpress.org/', 'jobscout' ) ) .'" target="_blank">WordPress</a>.' );
 }
 endif;
