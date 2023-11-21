@@ -1,5 +1,6 @@
 #client-section {
     background-color: #EA751E;
+    margin: 0;
 }
 
 #client-section .email-icon {
@@ -51,6 +52,12 @@
 
 /* Blog Home */
 
+#blog-section {
+    background-color: #F2F2F2;
+    margin: 0;
+    padding: 70px 0;
+}
+
 #blog-section .container .article-wrap {
     grid-template-columns: repeat(2, 1fr);
 }
@@ -58,6 +65,9 @@
 #blog-section .container .article-wrap .post {
     display: flex;
     flex-wrap: nowrap;
+    border-radius: unset;
+    box-shadow: none;
+    background-color: #fff;
 }
 
 #blog-section .container .article-wrap .post .entry-header {
@@ -72,6 +82,7 @@
 #blog-section .container .article-wrap .post .entry-header .entry-meta a {
     font-weight: 700;
     color: #EA7823;
+    margin-bottom: 2px;
 }
 
 #blog-section .container .article-wrap .post .post-thumbnail {
@@ -119,6 +130,7 @@ body.blog {
         background-color: #fff;
         box-shadow: unset;
         border-radius: unset;
+        margin-bottom: 16px;
     }
     
     #acc-content #content #primary #main article .post-thumbnail {
