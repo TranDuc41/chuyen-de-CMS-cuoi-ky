@@ -4709,8 +4709,8 @@ WIDGET CALL TO ACTION
 
 .widget_raratheme_companion_cta_widget a.btn-cta {
   display: inline-block;
-  background: #2ace5e;
-  border: 1px solid #2ace5e;
+  background: #ea751e;
+  border: 1px solid #ea751e;
   color: #fff;
   font-weight: 700;
   margin: 5px;
@@ -4721,7 +4721,7 @@ WIDGET CALL TO ACTION
 
 .widget_raratheme_companion_cta_widget a.btn-cta:hover {
   background: none;
-  color: #2ace5e;
+  color: #ea751e;
 }
 
 .widget_raratheme_companion_cta_widget .text a.btn-cta {
