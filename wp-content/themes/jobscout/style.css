@@ -2554,7 +2554,6 @@ section.top-job-section .section-title {
 .top-job-section .row div.job_listings article {
   width: 48%;
   background: #fff;
-  border: 1px solid rgba(0, 0, 0, 0.1);
   margin-right: 2.5%;
   margin-bottom: 3%;
   border-radius: 5px;
@@ -2564,6 +2563,7 @@ section.top-job-section .section-title {
   flex-wrap: wrap;
   align-items: flex-start;
   overflow: hidden;
+  height: 250px;
 }
 
 .top-job-section .row div.job_listings article:nth-child(2n) {
@@ -8160,3 +8160,84 @@ RESPONSIVE STYLESHEET
 .wp-block-social-links {
   flex-wrap: wrap !important;
 }
+
+
+/* TOP JOB */
+.meta-company {
+  padding: 1px 3px;
+  background: #e6e6e6;
+  color: #595959;
+  font-weight: 500;
+  font-size: 16px;
+  padding-left: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.meta-company .name-company::before,
+.meta-company .location::before {
+  content: "|";
+  color: #bfbfbf;
+  padding-right: 5px;
+}
+
+.meta-company .location a {
+  color: #595959;
+}
+
+/* .description-top-job {
+  position: absolute;
+  left: -40px;
+  top: 145px;
+  font-size: 0.7777em;
+  margin: 0 0 !important;
+  max-height: 62.6px;
+  overflow: hidden;
+} */
+.site-main .entry-content div.job_listings div.job_listings {
+  display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px;
+    text-align: left;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.top-job-section div.job_listings .load_more_jobs::before {
+  content: unset;
+  width: unset;
+}
+
+.description-top-job ul {
+  margin-left: 0;
+  margin-top: 6px;
+}
+
+.top-job .job-title-wrap .meta-company span {
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.meta-company .category,
+.meta-company .name-company,
+.meta-company .location {
+  padding: 0 6px;
+  
+}
+
+.top-job-section .row div.job_listings article .company-name::before {
+  content: "Create:";
+}
+
+.top-job-section .row div.job_listings article {
+  height: 250px;
+}
+
+.site-main .entry-content div.job_listings div.job_listings article {
+  height: 256px;
+}
+.job-posting-section{
+  background-color: #e6e6e6
+}
+
+
