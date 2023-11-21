@@ -1121,12 +1121,11 @@ body.custom-background .site {
 a.btn {
   display: inline-block;
   background: #2ace5e;
-  border: 1px solid #2ace5e;
+
   color: #fff;
   font-weight: 700;
 
   font-size: 0.888em;
-  border-radius: 5px;
   padding: 10px 18px;
 }
 
@@ -2211,7 +2210,7 @@ body.home:not(.banner-enabled) .site-header {
 .main-navigation ul li a {
   display: inline-block;
   vertical-align: middle;
-  padding: 17px;
+  padding: 11px;
   color: #000;
 }
 
@@ -2220,7 +2219,9 @@ body.home:not(.banner-enabled) .site-header {
 .main-navigation ul li.current_page_item>a,
 .main-navigation ul li.current-menu-ancestor>a,
 .main-navigation ul li.current_page_ancestor>a {
-  color: #2ace5e;
+  border-bottom: 3.5px solid #ea751e;
+  ;
+  margin-right: 10px;
 }
 
 .main-navigation ul li ul {
@@ -2554,7 +2555,6 @@ section.top-job-section .section-title {
 .top-job-section .row div.job_listings article {
   width: 48%;
   background: #fff;
-  border: 1px solid rgba(0, 0, 0, 0.1);
   margin-right: 2.5%;
   margin-bottom: 3%;
   border-radius: 5px;
@@ -2564,6 +2564,7 @@ section.top-job-section .section-title {
   flex-wrap: wrap;
   align-items: flex-start;
   overflow: hidden;
+  height: 250px;
 }
 
 .top-job-section .row div.job_listings article:nth-child(2n) {
@@ -2614,7 +2615,7 @@ section.top-job-section .section-title {
   color: rgba(0, 0, 0, 0.5);
   font-weight: 400;
   line-height: 1.44em;
-  margin-top: 5px;
+  margin-top: 4px;
 }
 
 .top-job-section .row div.job_listings article .company-name::before {
@@ -8159,4 +8160,184 @@ RESPONSIVE STYLESHEET
 
 .wp-block-social-links {
   flex-wrap: wrap !important;
+}
+
+
+/* TOP JOB */
+.top-job-section div.job_listings .load_more_jobs {
+  background-color: #f5f5f7;
+  border: 2px solid #ea751e;
+  color: #ea751e;
+  border-radius: unset;
+}
+
+.meta-company {
+  padding: 1px 3px;
+  background: #f5f5f7;
+  color: #595959;
+  font-weight: 500;
+  font-size: 16px;
+  padding-left: 5px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2px;
+}
+
+.meta-company .name-company::before,
+.meta-company .location::before {
+  content: "|";
+  color: #bfbfbf;
+  padding-right: 5px;
+}
+
+.meta-company .location a {
+  color: #595959;
+}
+
+.site-main .entry-content div.job_listings div.job_listings {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 30px;
+  text-align: left;
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+
+.top-job-section div.job_listings .load_more_jobs::before {
+  content: unset;
+  width: unset;
+}
+
+.description-top-job ul {
+  margin-left: 0;
+  margin-top: 6px;
+}
+
+.top-job .job-title-wrap .meta-company span {
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.meta-company .category,
+.meta-company .name-company,
+.meta-company .location {
+  padding: 0 6px;
+
+}
+
+.top-job-section .row div.job_listings article .company-name::before {
+  content: "Create:";
+}
+
+.top-job-section .row div.job_listings article {
+  height: 250px;
+}
+
+.site-main .entry-content div.job_listings div.job_listings article {
+  height: 256px;
+}
+
+.job-posting-section {
+  background-color: #e6e6e6
+}
+
+/* Top-JOBS NEW */
+.site-content {
+  background: #f5f5f7;
+}
+
+
+
+/* HEADRER */
+.header-main .container .site-branding {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: -115px;
+
+}
+
+
+.site-branding .site-title-wrap .site-title {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.menu-wrap .btn-wrap a.btn {
+  background: #ea751e;
+
+}
+
+.site-header ul:hover {
+  color: unset;
+}
+
+.site-branding .site-title a {
+  color: #000;
+}
+
+.custom-logo-link {
+  width: 366px;
+  height: auto;
+
+}
+
+.header-main .menu-wrap {
+  margin-right: -117px;
+}
+
+
+
+/* FOOTER  */
+.footer-t {
+  background-color: #f5f5f7;
+
+}
+
+.site-footer .widget ul li {
+  border-bottom: unset;
+}
+
+.footer-t .widget ul {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-t .widget .widget p {
+  color: #000;
+}
+
+.site-footer .widget ul li a,
+.site-footer .widget ol li a {
+  color: #000;
+}
+
+.site-footer .grid:not(.column-1) {
+  display: unset;
+}
+
+.site-footer .grid.column-2>.col {
+  width: 100%
+}
+
+.site-footer .column-2 .widget p {
+  text-align: center;
+  font-size: 27px;
+  font-weight: 600;
+}
+
+.footer-t .widget ul li {
+  font-weight: 800;
+}
+
+.site-footer .widget ul li:not(:last-child) {
+  margin-right: 12px;
+}
+
+.footer-t .widget {
+  margin: 0 !important;
+}
+
+.footer-t .wp-block-social-links {
+  margin-bottom: 93px;
 }

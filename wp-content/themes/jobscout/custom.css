@@ -60,6 +60,7 @@
 
 #blog-section .container .article-wrap {
     grid-template-columns: repeat(2, 1fr);
+    margin-bottom: unset;
 }
 
 #blog-section .container .article-wrap .post {
