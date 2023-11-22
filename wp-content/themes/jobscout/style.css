@@ -5596,7 +5596,7 @@ JOB LISTING PAGE
 }
 
 .site-main .entry-content div.job_listings div.job_listings article .company-name:before {
-  content: "@";
+  content: "Created";
 }
 
 .site-main .entry-content div.job_listings div.job_listings article .entry-meta {
@@ -8209,8 +8209,9 @@ RESPONSIVE STYLESHEET
 }
 
 .description-top-job ul {
-  margin-left: 0;
+  margin-left: -13px;
   margin-top: 6px;
+  font-size: 14px;
 }
 
 .top-job .job-title-wrap .meta-company span {
@@ -8226,7 +8227,7 @@ RESPONSIVE STYLESHEET
 }
 
 .top-job-section .row div.job_listings article .company-name::before {
-  content: "Create:";
+  content: "Created:";
 }
 
 .top-job-section .row div.job_listings article {
